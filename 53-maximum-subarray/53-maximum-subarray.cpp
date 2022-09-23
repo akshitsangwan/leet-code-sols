@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Using KADANE's ALGO to solve in O(n)
     int maxSubArray(vector<int>& nums) {
         int maxSum=INT_MIN;
         int currSum=0;
