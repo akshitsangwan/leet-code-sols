@@ -12,9 +12,7 @@ public:
             temp/=10;
         }
        temp=x;
-        for(auto i:v)
-            cout<<i<<" ";
-        cout<<endl;
+        
         while(temp)
         {
             int rem=temp%10;
